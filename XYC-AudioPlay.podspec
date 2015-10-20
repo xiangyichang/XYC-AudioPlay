@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/xiangyichang/XYC-AudioPlay.git", :tag => s.version }
   s.source_files = "*.{h,m}"
-  s.frameworks = 'Foundation', 'AVFoundation'
+  s.frameworks = 'AVFoundation'
+  s.requires_arc = true
 end
