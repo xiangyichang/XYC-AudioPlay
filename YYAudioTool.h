@@ -14,6 +14,7 @@
  *播放音乐文件
  */
 +(BOOL)playMusic:(NSString *)filename ofName:(NSString *)name;
+
 /**
  *播放音乐文件---给微拍单独使用
  */
