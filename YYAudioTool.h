@@ -15,9 +15,17 @@
  */
 +(BOOL)playMusic:(NSString *)filename ofName:(NSString *)name;
 /**
+ *播放音乐文件---给微拍单独使用
+ */
++(BOOL)playSound:(NSString *)filename ofName:(NSString *)name;
+/**
  *暂停播放
  */
 +(void)pauseMusic:(NSString *)filename ofName:(NSString *)name;
+/**
+ *暂停播放---给微拍单独使用
+ */
++(void)pauseSound:(NSString *)filename ofName:(NSString *)name;
 /**
  *停止播放音乐文件
  */
